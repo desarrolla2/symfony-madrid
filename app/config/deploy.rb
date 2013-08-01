@@ -33,7 +33,7 @@ set :permission_method,                 :chown
 set :use_sudo,                          false
 set :writable_dirs,                     ['app/cache', 'app/logs']
 set :shared_files,                      ['app/config/parameters.yml','app/config/security.yml']
-set :shared_children,                   [ app_path + '/logs']
+set :shared_children,                   [ app_path + '/logs', app_path + '/var']
 
 ssh_options[:forward_agent] =           true
 
@@ -83,4 +83,4 @@ end
 # DEBUG     = 2
 # TRACE     = 3
 # MAX_LEVEL = 3
-logger.level = Logger::MAX_LEVEL
+logger.level = Logger::IMPORTANT
