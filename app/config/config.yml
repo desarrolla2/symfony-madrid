@@ -11,8 +11,9 @@ framework:
     csrf_protection: true
     validation:      { enable_annotations: true }
     templating:      { engines: ['twig'] } #assets_version: SomeVersionScheme
-    trust_proxy_headers: false # Should Request object should trust proxy headers (X_FORWARDED_FOR/HTTP_CLIENT_IP)
-    session:         ~
+    trusted_proxies:  [127.0.0.1]
+    session:
+        save_path: %kernel.root_dir%/var/sessions
 
 # Twig Configuration
 twig:
@@ -52,9 +53,6 @@ swiftmailer:
     username:  %mailer_user%
     password:  %mailer_password%
 
-jms_security_extra:
-    secure_all_services: false
-
 services:
    twig.extension.text:
        class: Twig_Extensions_Extension_Text
@@ -68,7 +66,6 @@ services:
 
 rss_client:
    channels:
-     
       symfony_madrid_guys:
          - 'http://codeup.net/feed/'
          - 'http://www.osukaru.es/feed/'
@@ -79,7 +76,3 @@ rss_client:
          
       google_groups:       
          - 'https://groups.google.com/group/symfony_madrid/feed/rss_v2_0_topics.xml'
-
-    
-twitter_client:
-   screen_name: 'symfony_madrid'

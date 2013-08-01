@@ -1,32 +1,4 @@
-{# News/index.html.twig #}
 {% extends 'SFMWebsiteBundle::layout.html.twig' %}
-
-{#
-{% block content %}
-    <section class="page-content news">
-        <h2>Noticias</h2>
-        {% for feed in feeds %}
-            <div class="feed">
-                <h3>{{ feed.name }}</h3>
-                <div class="feed-posts">
-                    {% for rssnew in feed.posts %}
-                        <article class="hentry">
-                            <h4 class="entry-title">
-                                <a href="{{ rssnew.link }}" target="_blank">{{ rssnew.title }}</a>
-                                <small class="date-header">{{ rssnew.pubDate|date('d/m/Y H:i') }}</small>
-                            </h4>
-                            <p class="entry-content">{{ rssnew.description | replace({'&lt;':'<', '&gt;':'>'}) | striptags | truncate(420) | raw }}</p>
-                        </article>
-                    {% else %}
-                        {{ 'sfm.news.empty'|trans|raw }} {{ feed.name }}
-                    {% endfor %}
-                </div>
-            </div>
-        {% endfor %}
-    </section>
-{% endblock %}
-#}
-
 {% block content %}
 <section class="page-content news">
     <h2>Noticias</h2>
@@ -41,7 +13,7 @@
                     <a href="{{ feed.link }}" target="_blank">{{ feed.title }}</a>
                     <small class="date-header">{{ feed.pubDate|date('d/m/Y H:i') }}</small>
                 </h4>
-                <p class="entry-content">{{ feed.desc | replace({'&lt;':'<', '&gt;':'>'}) | striptags | truncate(420) | raw }}</p>
+                <p class="entry-content">{{ feed.description | replace({'&lt;':'<', '&gt;':'>'}) | striptags | truncate(420) | raw }}</p>
             </article>
         {% else %}
             {{ 'sfm.news.empty'|trans|raw }}

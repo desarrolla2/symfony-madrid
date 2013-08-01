@@ -39,10 +39,9 @@ class WidgetsController extends Controller
      */
     public function twitterAction()
     {
-        $twitterClient = $this->container->get('twitter_client');
 
         return array(
-            'feeds' => $twitterClient->fetch(6)
+            'feeds' => []
         );
     }
 
