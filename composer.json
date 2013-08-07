@@ -23,7 +23,7 @@
         "desarrolla2/rss-client-bundle": "dev-master"
     },
     "require-dev": {
-        "raulfraile/ladybug-bundle": "dev-master",
+        "raulfraile/ladybug-bundle": "v0.61",
         "doctrine/doctrine-fixtures-bundle": "dev-master"
     },
     "scripts": {
