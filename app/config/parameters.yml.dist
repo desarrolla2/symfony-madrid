@@ -30,4 +30,9 @@ parameters:
       - 'https://groups.google.com/group/symfony_madrid/feed/rss_v2_0_topics.xml'
     
   d2.client.twitter.screen_name: 'symfony_madrid'
-  d2.client.twitter.search_query: ~   
+  d2.client.twitter.search_query: ~
+
+  twitter_client.consumer_key: 'your consumer_key'
+  twitter_client.consumer_secret: 'your consumer_secret'
+  twitter_client.token: 'your token'
+  twitter_client.token_secret:  'your token_secret'
