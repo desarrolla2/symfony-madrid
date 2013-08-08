@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "0ac8eb6005692dca92166590371e469a",
+    "hash": "243ec76e375edda4085751fe39c90382",
     "packages": [
         {
             "name": "desarrolla2/cache",
@@ -149,7 +149,7 @@
         },
         {
             "name": "desarrolla2/twitter-client",
-            "version": "dev-master",
+            "version": "v2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/desarrolla2/TwitterClient.git",
@@ -191,21 +191,21 @@
         },
         {
             "name": "desarrolla2/twitter-client-bundle",
-            "version": "dev-master",
+            "version": "v2.0.0",
             "target-dir": "Desarrolla2/Bundle/TwitterClientBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/desarrolla2/TwitterClientBundle.git",
-                "reference": "6ff3cc4e613a641c55cd16cf8d2f5757ed1693ba"
+                "reference": "v2.0.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/desarrolla2/TwitterClientBundle/zipball/6ff3cc4e613a641c55cd16cf8d2f5757ed1693ba",
-                "reference": "6ff3cc4e613a641c55cd16cf8d2f5757ed1693ba",
+                "url": "https://api.github.com/repos/desarrolla2/TwitterClientBundle/zipball/v2.0.0",
+                "reference": "v2.0.0",
                 "shasum": ""
             },
             "require": {
-                "desarrolla2/twitter-client": "*",
+                "desarrolla2/twitter-client": "2.*",
                 "php": ">=5.3.2"
             },
             "type": "symfony-bundle",
@@ -230,7 +230,7 @@
                 "client",
                 "twitter"
             ],
-            "time": "2013-03-24 22:54:33"
+            "time": "2013-08-08 12:40:36"
         },
         {
             "name": "doctrine/annotations",
@@ -1257,12 +1257,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioDistributionBundle.git",
-                "reference": "v2.3.3"
+                "reference": "f666c65c810f6a23455966c37f99ba76094775b5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/v2.3.3",
-                "reference": "v2.3.3",
+                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/f666c65c810f6a23455966c37f99ba76094775b5",
+                "reference": "f666c65c810f6a23455966c37f99ba76094775b5",
                 "shasum": ""
             },
             "require": {
@@ -1294,7 +1294,7 @@
                 "configuration",
                 "distribution"
             ],
-            "time": "2013-07-24 08:45:20"
+            "time": "2013-08-08 12:18:08"
         },
         {
             "name": "sensio/framework-extra-bundle",
@@ -1670,12 +1670,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "879e271fb88f5ec0ce86f4030a8b1dac4bbea189"
+                "reference": "b463a70d730426a6abffd1c3f544bf0868a9c858"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/879e271fb88f5ec0ce86f4030a8b1dac4bbea189",
-                "reference": "879e271fb88f5ec0ce86f4030a8b1dac4bbea189",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/b463a70d730426a6abffd1c3f544bf0868a9c858",
+                "reference": "b463a70d730426a6abffd1c3f544bf0868a9c858",
                 "shasum": ""
             },
             "require": {
@@ -1770,7 +1770,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2013-08-08 10:59:14"
+            "time": "2013-08-08 12:02:32"
         },
         {
             "name": "twig/extensions",
@@ -2086,7 +2086,6 @@
     ],
     "minimum-stability": "dev",
     "stability-flags": {
-        "desarrolla2/twitter-client-bundle": 20,
         "doctrine/doctrine-fixtures-bundle": 20
     },
     "platform": {

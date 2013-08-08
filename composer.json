@@ -20,7 +20,7 @@
         "sensio/generator-bundle": "2.3.*",
         "incenteev/composer-parameter-handler": "~2.0",
         "desarrolla2/rss-client-bundle": "*",
-	"desarrolla2/twitter-client-bundle": "dev-master"
+	"desarrolla2/twitter-client-bundle": "2.*"
     },
     "require-dev": {
         "raulfraile/ladybug-bundle": "v0.61",
