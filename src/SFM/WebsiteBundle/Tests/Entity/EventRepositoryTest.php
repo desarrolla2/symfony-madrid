@@ -50,7 +50,7 @@ class EventRepositoryTest extends OrmTestCase
         }
 
         // Retrieve the EntityManager
-        $em = $kernel->getContainer()->get('doctrine')->getEntityManager();
+        $em = $kernel->getContainer()->get('doctrine')->getManager();
         $em->getEventManager()->addEventListener('preTestSetUp', new SchemaSetupListener());
 
         return $em;

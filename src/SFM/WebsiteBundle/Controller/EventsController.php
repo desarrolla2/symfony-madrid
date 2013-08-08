@@ -58,7 +58,7 @@ class EventsController extends Controller
     private function getEventRepository()
     {
         if (null === $this->eventRepository) {
-            $this->eventRepository = $this->getDoctrine()->getEntityManager()->getRepository('SFMWebsiteBundle:Event');
+            $this->eventRepository = $this->getDoctrine()->getManager()->getRepository('SFMWebsiteBundle:Event');
         }
 
         return $this->eventRepository;

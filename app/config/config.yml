@@ -63,6 +63,11 @@ services:
        tags:
            - { name: twig.extension }
            
+twitter_client:
+  consumer_key: %twitter_client.consumer_key%
+  consumer_secret: %twitter_client.consumer_secret%
+  token: %twitter_client.token%
+  token_secret: %twitter_client.token_secret%
 
 rss_client:
    channels:

@@ -24,7 +24,7 @@ class DefaultController extends Controller
     public function indexAction()
     {
 
-        $em = $this->getDoctrine()->getEntityManager();
+        $em = $this->getDoctrine()->getManager();
         $nextEvent = $em->getRepository('SFMWebsiteBundle:Event')->getNextEvent();
 
         $response = $this->render('SFMWebsiteBundle:Default:index.html.twig', array(

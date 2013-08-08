@@ -3,7 +3,7 @@
         "This file locks the dependencies of your project to a known state",
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
     ],
-    "hash": "bcea9ae2437428d04198f39f78ae467d",
+    "hash": "0ac8eb6005692dca92166590371e469a",
     "packages": [
         {
             "name": "desarrolla2/cache",
@@ -153,12 +153,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/desarrolla2/TwitterClient.git",
-                "reference": "0b67c5df4b17dcba2f44c4523e410843c01b1cea"
+                "reference": "v2.0.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/desarrolla2/TwitterClient/zipball/0b67c5df4b17dcba2f44c4523e410843c01b1cea",
-                "reference": "0b67c5df4b17dcba2f44c4523e410843c01b1cea",
+                "url": "https://api.github.com/repos/desarrolla2/TwitterClient/zipball/v2.0.0",
+                "reference": "v2.0.0",
                 "shasum": ""
             },
             "require": {
@@ -187,7 +187,50 @@
                 "client",
                 "twitter"
             ],
-            "time": "2013-08-06 20:20:27"
+            "time": "2013-08-07 21:02:04"
+        },
+        {
+            "name": "desarrolla2/twitter-client-bundle",
+            "version": "dev-master",
+            "target-dir": "Desarrolla2/Bundle/TwitterClientBundle",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/desarrolla2/TwitterClientBundle.git",
+                "reference": "6ff3cc4e613a641c55cd16cf8d2f5757ed1693ba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/desarrolla2/TwitterClientBundle/zipball/6ff3cc4e613a641c55cd16cf8d2f5757ed1693ba",
+                "reference": "6ff3cc4e613a641c55cd16cf8d2f5757ed1693ba",
+                "shasum": ""
+            },
+            "require": {
+                "desarrolla2/twitter-client": "*",
+                "php": ">=5.3.2"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-0": {
+                    "Desarrolla2\\Bundle\\TwitterClientBundle": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Daniel González",
+                    "homepage": "http://desarrolla2.com/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "This Bundle provides a way to get twits friendly.",
+            "keywords": [
+                "client",
+                "twitter"
+            ],
+            "time": "2013-03-24 22:54:33"
         },
         {
             "name": "doctrine/annotations",
@@ -266,12 +309,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/cache.git",
-                "reference": "beb242e0e22eebdca1db571edb1bac788b054124"
+                "reference": "2c9761ff1d13e188d5f7378066c1ce2882d7a336"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/cache/zipball/beb242e0e22eebdca1db571edb1bac788b054124",
-                "reference": "beb242e0e22eebdca1db571edb1bac788b054124",
+                "url": "https://api.github.com/repos/doctrine/cache/zipball/2c9761ff1d13e188d5f7378066c1ce2882d7a336",
+                "reference": "2c9761ff1d13e188d5f7378066c1ce2882d7a336",
                 "shasum": ""
             },
             "require": {
@@ -327,7 +370,7 @@
                 "cache",
                 "caching"
             ],
-            "time": "2013-07-31 00:07:06"
+            "time": "2013-08-07 16:04:25"
         },
         {
             "name": "doctrine/collections",
@@ -1214,12 +1257,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioDistributionBundle.git",
-                "reference": "4dad0ba10df54ea44581a51937f1a601b9d64575"
+                "reference": "v2.3.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/4dad0ba10df54ea44581a51937f1a601b9d64575",
-                "reference": "4dad0ba10df54ea44581a51937f1a601b9d64575",
+                "url": "https://api.github.com/repos/sensiolabs/SensioDistributionBundle/zipball/v2.3.3",
+                "reference": "v2.3.3",
                 "shasum": ""
             },
             "require": {
@@ -1260,12 +1303,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioFrameworkExtraBundle.git",
-                "reference": "cce05719041d952bbec856789ca18646a1891d03"
+                "reference": "v2.3.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioFrameworkExtraBundle/zipball/cce05719041d952bbec856789ca18646a1891d03",
-                "reference": "cce05719041d952bbec856789ca18646a1891d03",
+                "url": "https://api.github.com/repos/sensiolabs/SensioFrameworkExtraBundle/zipball/v2.3.3",
+                "reference": "v2.3.3",
                 "shasum": ""
             },
             "require": {
@@ -1307,12 +1350,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sensiolabs/SensioGeneratorBundle.git",
-                "reference": "2e57c0e7ece80a8717768818871329c82931b9d9"
+                "reference": "v2.3.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sensiolabs/SensioGeneratorBundle/zipball/2e57c0e7ece80a8717768818871329c82931b9d9",
-                "reference": "2e57c0e7ece80a8717768818871329c82931b9d9",
+                "url": "https://api.github.com/repos/sensiolabs/SensioGeneratorBundle/zipball/v2.3.3",
+                "reference": "v2.3.3",
                 "shasum": ""
             },
             "require": {
@@ -1568,17 +1611,17 @@
         },
         {
             "name": "symfony/swiftmailer-bundle",
-            "version": "v2.3.2",
+            "version": "v2.3.3",
             "target-dir": "Symfony/Bundle/SwiftmailerBundle",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/SwiftmailerBundle.git",
-                "reference": "v2.3.2"
+                "reference": "v2.3.3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/SwiftmailerBundle/zipball/v2.3.2",
-                "reference": "v2.3.2",
+                "url": "https://api.github.com/repos/symfony/SwiftmailerBundle/zipball/v2.3.3",
+                "reference": "v2.3.3",
                 "shasum": ""
             },
             "require": {
@@ -1619,7 +1662,7 @@
             ],
             "description": "Symfony SwiftmailerBundle",
             "homepage": "http://symfony.com",
-            "time": "2013-05-15 08:38:58"
+            "time": "2013-08-05 08:18:16"
         },
         {
             "name": "symfony/symfony",
@@ -1627,12 +1670,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "4de3a06f9b2f03e593e05957a5abf75ee4c3319b"
+                "reference": "879e271fb88f5ec0ce86f4030a8b1dac4bbea189"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/4de3a06f9b2f03e593e05957a5abf75ee4c3319b",
-                "reference": "4de3a06f9b2f03e593e05957a5abf75ee4c3319b",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/879e271fb88f5ec0ce86f4030a8b1dac4bbea189",
+                "reference": "879e271fb88f5ec0ce86f4030a8b1dac4bbea189",
                 "shasum": ""
             },
             "require": {
@@ -1727,7 +1770,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2013-08-06 05:49:23"
+            "time": "2013-08-08 10:59:14"
         },
         {
             "name": "twig/extensions",
@@ -1782,12 +1825,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fabpot/Twig.git",
-                "reference": "e0fbce2fc0e7289a0c47c5fe4dbf2b9ea6c212d2"
+                "reference": "fcf007e9a2e6c65594360ae7fa3c410ae8d56a11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fabpot/Twig/zipball/e0fbce2fc0e7289a0c47c5fe4dbf2b9ea6c212d2",
-                "reference": "e0fbce2fc0e7289a0c47c5fe4dbf2b9ea6c212d2",
+                "url": "https://api.github.com/repos/fabpot/Twig/zipball/fcf007e9a2e6c65594360ae7fa3c410ae8d56a11",
+                "reference": "fcf007e9a2e6c65594360ae7fa3c410ae8d56a11",
                 "shasum": ""
             },
             "require": {
@@ -1823,7 +1866,7 @@
             "keywords": [
                 "templating"
             ],
-            "time": "2013-08-06 05:46:34"
+            "time": "2013-08-07 12:53:34"
         }
     ],
     "packages-dev": [
@@ -2043,8 +2086,7 @@
     ],
     "minimum-stability": "dev",
     "stability-flags": {
-        "desarrolla2/twitter-client": 20,
-        "desarrolla2/rss-client-bundle": 20,
+        "desarrolla2/twitter-client-bundle": 20,
         "doctrine/doctrine-fixtures-bundle": 20
     },
     "platform": {

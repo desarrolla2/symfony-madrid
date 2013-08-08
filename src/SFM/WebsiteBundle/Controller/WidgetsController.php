@@ -8,6 +8,7 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Method;
 use Symfony\Component\HttpFoundation\Response;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 use Symfony\Component\HttpKernel\Exception\HttpException;
+use Desarrolla2\TwitterClient\TwitterClient;
 
 class WidgetsController extends Controller
 {
@@ -39,10 +40,10 @@ class WidgetsController extends Controller
      */
     public function twitterAction()
     {
+        $twitter_client = $this->container->get('twitter_client');
 
         return array(
-            'feeds' => []
+            'feeds' => $twitter_client->getUserTimeLine('symfony_madrid', 6)
         );
     }
-
 }

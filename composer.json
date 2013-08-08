@@ -19,8 +19,8 @@
         "sensio/framework-extra-bundle": "2.3.*",
         "sensio/generator-bundle": "2.3.*",
         "incenteev/composer-parameter-handler": "~2.0",
-        "desarrolla2/twitter-client": "dev-master",
-        "desarrolla2/rss-client-bundle": "dev-master"
+        "desarrolla2/rss-client-bundle": "*",
+	"desarrolla2/twitter-client-bundle": "dev-master"
     },
     "require-dev": {
         "raulfraile/ladybug-bundle": "v0.61",

@@ -28,7 +28,7 @@ class SchemaSetupListener
      */
     public function preTestSetUp(EntityManagerEventArgs $eventArgs)
     {
-        $em = $eventArgs->getEntityManager();
+        $em = $eventArgs->getManager();
         $cmf = $em->getMetadataFactory();
         $classes = $cmf->getAllMetadata();
 
